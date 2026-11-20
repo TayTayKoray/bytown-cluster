@@ -1,0 +1,7 @@
+Q1: The manager started it automatically as part of the self healing. If a part is down the manager
+automatically makes a new one to bring it back up
+Q2: Docker swarm was made with docker meaning everything is straight forward and fully supported.
+k3s is meant to be a smaller version of k8s but its just as capable at a smalelr scale. They are
+both lighter meaning easier on a system which is better for smaller usage
+Q3: The page never went down because there were always 2 instance running and when they update they
+update one at a time meaning there is always an active one and then they switch when updated
